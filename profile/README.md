@@ -21,4 +21,12 @@ AX 인재전쟁 2026은 OpenAI × 조코딩AX파트너스 채용 해커톤입니
 
 ## 현재 제출물
 
-- `musinsa-product-risk-auditor`: 무신사 및 온라인 패션 플랫폼의 상품 상세 페이지에서 교환/반품/환불, 상품 정보, 정품/검수, 배송, 사이즈/핏, 리뷰 신뢰 리스크를 사전에 점검하는 Codex 플러그인입니다.
+예선 과제 조건에 맞춰 기업별로 별도 Codex 플러그인을 구성했습니다.
+
+| 기업 | 제출물 | 해결 문제 | 상태 |
+| --- | --- | --- | --- |
+| 무신사 | `musinsa-product-risk-auditor` | 온라인 패션 상품 상세 페이지에서 교환/반품/환불, 상품 정보, 정품/검수, 배송, 사이즈/핏, 리뷰 신뢰 리스크를 사전에 점검 | `submission.zip` 생성 완료 |
+| 채널톡 | `channel-ai-cs-diagnosis` | AI 상담 로그에서 반복 문의, 챗봇 실패/미해결 신호, 상담원 연결 필요 신호, FAQ 개선 후보를 진단 | `submission.zip` 생성 완료 |
+| 카카오페이증권 | `kakaopaysec-voc-triage` | 증권 VOC/고객상담 텍스트의 긴급도, 금융사고성, 주문장애/보상 증빙 필요 여부, FAQ 개선 후보를 분류 | `submission.zip` 생성 완료 |
+
+각 제출물은 과제 요구 구조에 맞춰 `src/.codex-plugin/plugin.json`, `src/skills/*/SKILL.md`, 실행 코드, 공개 근거 자료, 검증 결과, 원본 로그를 포함합니다.
